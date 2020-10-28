@@ -18,3 +18,5 @@ function capitalize(stringVal){
 usage
 capitalize('hello'); // Hello
 ```
+
+[View code sand box](https://opfde.csb.app/)
