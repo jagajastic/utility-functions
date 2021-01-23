@@ -52,5 +52,24 @@ export const exportToCsv = function (Results) {
   x.click();
 };
 
+````
+### Sort Alphabet
+
+````
+const arr = [
+  {firstName: "Coder", lastName: "Byte"},
+  {firstName: "Mike", lastName: "Adenuga"},
+  {firstName: "Ibra", lastName: "Joe"},
+]
+
+arr.sort((a,b) => {
+  if(a.lastName < b.lastName) {
+    return -1
+  } else if(a.lastName > b.lastName) {
+    return 1;
+  } else {
+    return 0;
+  }
+});
 
 ````
